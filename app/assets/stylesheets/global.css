@@ -1,0 +1,23 @@
+h1 {
+  padding-left:25px;
+}
+#full-article-list th {
+  text-align:left; padding: 7px 25px; color:#FFFFFF; background-color: #333333;
+}
+#full-article-list tr td {
+  padding:20px 25px 7px 25px; border-bottom:1px solid #333333;
+}
+.new-article-link {
+  margin-bottom: 35px; margin-top: 25px; width:96%; text-align:right; padding: 0px 2%;
+}
+.new-article-link:after {
+  content: ' »';
+}
+form input,
+form textarea {
+  padding:7px 15px; line-height: 1.1em; font-size: 1.05em;
+  min-width: 300px;
+}
+form textarea {
+  min-height:250px;
+}

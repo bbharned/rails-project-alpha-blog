@@ -1,0 +1,32 @@
+<div class="content-box">
+<h1>All Articles</h1>
+<div class="new-article-link"><%= link_to "Post New Article", new_article_path %></div>
+<table id="full-article-list" width="100%">
+  <tr>
+    <th width="30%">Title</th>
+    <th width="50%">Description</th>
+    <th width="10%">&nbsp;</th>
+    <th width="10%">&nbsp;</th>
+  </tr>
+  
+  <% @articles.each do |article| %>
+  <tr>
+    <td>
+      <%= article.title %>
+    </td>
+    <td>
+      <%= article.description %>
+    </td>
+    <td>
+      <%= link_to 'Edit', edit_article_path(article) %>
+    </td>
+     <td>
+      <%= link_to 'Show', article_path(article) %>
+    </td>
+  </tr>
+  <% end %>
+</table>
+<!--
+<div class="new-article-link"><%= link_to "New Article", new_article_path %></div>
+-->
+</div>
