@@ -39,3 +39,19 @@ form.navbar-form {
 .container form textarea {
   min-height:250px;
 }
+footer {
+  width:100%; position: absolute; bottom: 0px; padding: 15px 0px; background-color: #000000;
+  color:#FFFFFF;
+}
+footer ul {
+  float:right; list-style:none; margin-left: none !important;
+}
+footer small {
+  float:left;
+}
+footer ul li {
+  float:left; padding-left: 15px; margin-left: 15px; border-left:1px solid #FFFFFF;
+}
+footer ul li:first-child {
+  border-left:0px; border-left:none;
+}
