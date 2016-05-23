@@ -42,14 +42,18 @@ form.navbar-form {
 }
 */
 .article-actions {
-  border-top:1px solid #eaeaea; padding-top:20px;
+  /*border-top:1px solid #eaeaea;*/ padding-top:5px;
 }
-
+.article-meta-details {
+  border-top:1px solid #eaeaea; margin-top:35px; padding-top:5px;
+  font-size:.85em; color: #999999;
+}
 .article-title {
   font-weight: bold; font-size: 1.5em;
 }
 .article-body {
-  border-top:1px solid #eaeaea; padding-top:15px; padding-bottom:15px;
+  border-top:1px solid #eaeaea; padding-top:15px; padding-bottom:5px;
+  font-size: 1.15em;
 }
 
 footer {
